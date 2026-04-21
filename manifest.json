@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.0.0.9",
+                "changelog": "- \"Fix test connection result handling to always show concrete status/message\"",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.9.zip",
+                "checksum": "dfd0cc6a8bd99b37afd52ade1458aa93",
+                "timestamp": "2026-04-21T16:40:46Z"
+            },
+            {
                 "version": "2.0.0.8",
                 "changelog": "- \"Normalize completion threshold inputs (0.85 and 85 both supported)\"",
                 "targetAbi": "10.11.0.0",
