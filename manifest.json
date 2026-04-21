@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.0.0.10",
+                "changelog": "- \"Remove unreliable Test Connection button and clarify URL/verification guidance\"",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.10.zip",
+                "checksum": "23f20921e12b45ee59f1a14f824bb017",
+                "timestamp": "2026-04-21T16:54:55Z"
+            },
+            {
                 "version": "2.0.0.9",
                 "changelog": "- \"Fix test connection result handling to always show concrete status/message\"",
                 "targetAbi": "10.11.0.0",
