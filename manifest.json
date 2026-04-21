@@ -8,10 +8,18 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.0.0.4",
+                "changelog": "- \"Add retry/timeout controls, queue processing, and connection test UI\"",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.4.zip",
+                "checksum": "24bf903e982d97bbc31221ca828a1863",
+                "timestamp": "2026-04-21T15:52:10Z"
+            },
+            {
                 "version": "2.0.0.3",
                 "changelog": "- \"Jellyfin 10.11.3 compatibility\"",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.3.zip",
+                "sourceUrl": "https://code.packedspeedo.com/mediatracker/jellyfin-plugin-mediatracker/-/releases/v2.0.0.3/downloads/mediatracker_2.0.0.3.zip",
                 "checksum": "d941b68f5e7859e298e38f091965a844",
                 "timestamp": "2026-04-17T20:48:27Z"
             },
