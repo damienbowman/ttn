@@ -11,7 +11,7 @@
                 "version": "2.0.0.3",
                 "changelog": "- \"Jellyfin 10.11.3 compatibility\"",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://code.packedspeedo.com/mediatracker/jellyfin-plugin-mediatracker/-/releases/v2.0.0.3/downloads/mediatracker_2.0.0.3.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.3.zip",
                 "checksum": "d941b68f5e7859e298e38f091965a844",
                 "timestamp": "2026-04-17T20:48:27Z"
             },
