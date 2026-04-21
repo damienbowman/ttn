@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.0.0.6",
+                "changelog": "- \"Add server-side connection test endpoint and settings test button integration\"",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.6.zip",
+                "checksum": "071b26ab4fdd7bf5e4c732488a1ae6b5",
+                "timestamp": "2026-04-21T16:14:03Z"
+            },
+            {
                 "version": "2.0.0.5",
                 "changelog": "- \"Fix settings UX defaults and improve connection test diagnostics\"",
                 "targetAbi": "10.11.0.0",
