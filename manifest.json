@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.0.0.8",
+                "changelog": "- \"Normalize completion threshold inputs (0.85 and 85 both supported)\"",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.0.8.zip",
+                "checksum": "fafd27254c944967bd3b8ab1ec0cfd3a",
+                "timestamp": "2026-04-21T16:31:47Z"
+            },
+            {
                 "version": "2.0.0.7",
                 "changelog": "- \"Fix test-connection response parsing on older/webview clients\"",
                 "targetAbi": "10.11.0.0",
