@@ -8,11 +8,11 @@
         "category": "General",
         "versions": [
             {
-                "version": "2.0.1.2",
+                "version": "2.0.1.3",
                 "changelog": "OAuth 2.0 device flow pairing — no more manual API token copy/paste. Per-user Encore connections via Settings page approval.",
-                "targetAbi": "10.9.1.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.1.0.zip",
-                "checksum": "73ba81b9fe3ba88370d2d3c27e6d88c1",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "hhttps://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.1.0.zip",
+                "checksum": "c781f0e1012503aaaf171938c9b985ba",
                 "timestamp": "2026-05-08T00:10:00Z"
             },
             {
