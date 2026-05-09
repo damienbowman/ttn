@@ -8,7 +8,7 @@
         "category": "General",
         "versions": [
             {
-                "version": "2.0.1.0",
+                "version": "2.0.1.1",
                 "changelog": "OAuth 2.0 device flow pairing — no more manual API token copy/paste. Per-user Encore connections via Settings page approval.",
                 "targetAbi": "10.9.1.0",
                 "sourceUrl": "https://github.com/damienbowman/ttn/blob/main/mediatracker_2.0.1.0.zip",
