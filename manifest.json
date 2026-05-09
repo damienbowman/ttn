@@ -13,7 +13,7 @@
                 "targetAbi": "10.9.1.0",
                 "sourceUrl": "https://github.com/damienbowman/ttn/blob/main/mediatracker_2.0.1.0.zip",
                 "checksum": "73ba81b9fe3ba88370d2d3c27e6d88c1",
-                "timestamp": "2026-05-08T00:00:00Z"
+                "timestamp": "2026-05-08T00:10:00Z"
             },
             {
                 "version": "2.0.0.2",
