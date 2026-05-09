@@ -8,12 +8,12 @@
         "category": "General",
         "versions": [
             {
-                "version": "2.0.1.4",
-                "changelog": "OAuth 2.0 device flow pairing — no more manual API token copy/paste. Per-user Encore connections via Settings page approval.",
+                "version": "2.0.1.5",
+                "changelog": "Fix: only show current user's connection. Fix: accept Jellyfin plugin payload format for live tracking.",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.1.0.zip",
-                "checksum": "c781f0e1012503aaaf171938c9b985ba",
-                "timestamp": "2026-05-08T00:10:00Z"
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.1.5.zip",
+                "checksum": "9697f9a37242b159b2b77fbf1ad1ffed",
+                "timestamp": "2026-05-08T21:00:00Z"
             },
             {
                 "version": "2.0.0.2",
