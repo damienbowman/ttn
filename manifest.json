@@ -12,7 +12,7 @@
                 "changelog": "Per-user sidebar Encore connection page, non-admin connection controller endpoints, and per-user Encore URL + token delivery path.",
                 "targetAbi": "10.11.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/mediatracker_2.0.1.6.zip",
-                "checksum": "",
+                "checksum": "c781f0e1012503aaaf171938c9b985ba",
                 "timestamp": "2026-05-13T00:00:00Z"
             },
             {
