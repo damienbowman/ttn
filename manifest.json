@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.1",
-        "changelog": "Fix user visibility: Encore connection page is no longer marked as admin plugin configuration.",
+        "version": "2.1.0.2",
+        "changelog": "Removed all server default URL behavior; pairing is now strictly per-user with no admin default surface.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.1.zip",
-        "checksum": "dd3cbfd95d3fada9525c8490b39da871",
-        "timestamp": "2026-05-13T22:48:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.2.zip",
+        "checksum": "e3d1786daa5826aa0b5dc07967651793",
+        "timestamp": "2026-05-13T23:00:00Z"
       }
     ]
   }
