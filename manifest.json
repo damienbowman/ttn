@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.2",
-        "changelog": "Removed all server default URL behavior; pairing is now strictly per-user with no admin default surface.",
+        "version": "2.1.0.4",
+        "changelog": "Added explicit Jellyfin user selector on the connect page and improved pairing save/error handling.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.2.zip",
-        "checksum": "e3d1786daa5826aa0b5dc07967651793",
-        "timestamp": "2026-05-13T23:00:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.4.zip",
+        "checksum": "e4eb83c6db13d4afcef306f569a56ad6",
+        "timestamp": "2026-05-13T23:20:00Z"
       }
     ]
   }
