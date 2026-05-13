@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.0",
-        "changelog": "Repackaged for Encore distribution with strict checksum alignment and per-user connection flow.",
+        "version": "2.1.0.1",
+        "changelog": "Fix user visibility: Encore connection page is no longer marked as admin plugin configuration.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.0.zip",
-        "checksum": "01951157509aecbb2b56e060034cc7db",
-        "timestamp": "2026-05-13T22:35:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.1.zip",
+        "checksum": "dd3cbfd95d3fada9525c8490b39da871",
+        "timestamp": "2026-05-13T22:48:00Z"
       }
     ]
   }
