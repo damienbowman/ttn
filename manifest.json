@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.6",
-        "changelog": "Removed admin-only user enumeration and switched connection save/load to ApiClient-authenticated calls to fix regular-user 401 failures.",
+        "version": "2.1.0.7",
+        "changelog": "Restored admin user targeting, fixed token-save response parsing, and hardened GUID parsing for per-user connection records.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.6.zip",
-        "checksum": "c6d0f269392063b8e146da3329d5a04b",
-        "timestamp": "2026-05-14T03:12:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.7.zip",
+        "checksum": "c379c3db56a94843527901c704461a7c",
+        "timestamp": "2026-05-14T03:22:00Z"
       }
     ]
   }
