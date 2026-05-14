@@ -12,7 +12,7 @@
         "changelog": "Add historical watch history backfill — triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.9.zip",
-        "checksum": "",
+        "checksum": "9db2110465bb3fc52bf62c00d67f5553",
         "timestamp": "2026-05-14T17:00:00Z"
       },
       {
