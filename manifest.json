@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.4",
-        "changelog": "Added explicit Jellyfin user selector on the connect page and improved pairing save/error handling.",
+        "version": "2.1.0.5",
+        "changelog": "Rebased/squashed per-user Encore connection flow onto dev and fixed connection-test token accessor for compile/runtime alignment.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.4.zip",
-        "checksum": "e4eb83c6db13d4afcef306f569a56ad6",
-        "timestamp": "2026-05-13T23:20:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.5.zip",
+        "checksum": "ac6e4d1920bf109a9726dd38c7789c46",
+        "timestamp": "2026-05-14T02:44:00Z"
       }
     ]
   }
