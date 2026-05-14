@@ -8,12 +8,20 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.7",
-        "changelog": "Restored admin user targeting, fixed token-save response parsing, and hardened GUID parsing for per-user connection records.",
+        "version": "2.1.0.9",
+        "changelog": "Add historical watch history backfill — triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.7.zip",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.9.zip",
+        "checksum": "",
+        "timestamp": "2026-05-14T17:00:00Z"
+      },
+      {
+        "version": "2.1.0.8",
+        "changelog": "Fixed connection status not persisting after navigation: added error handling to status refresh and broadened JWT claim lookup for non-admin users.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.8.zip",
         "checksum": "c379c3db56a94843527901c704461a7c",
-        "timestamp": "2026-05-14T03:22:00Z"
+        "timestamp": "2026-05-14T16:00:00Z"
       }
     ]
   }
