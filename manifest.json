@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.11",
+        "changelog": "Persist connections to a stable JSON file in DataPath so they survive plugin updates without re-pairing. Include serverId in progress payloads.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.11.zip",
+        "checksum": "40e1f34d99c7f92981d0c6d001fff39b",
+        "timestamp": "2026-05-17T00:00:00Z"
+      },
+      {
         "version": "2.1.0.10",
         "changelog": "Include serverId in progress payloads so Encore can identify and display the connected Jellyfin server.",
         "targetAbi": "10.11.0.0",
