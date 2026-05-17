@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.10",
+        "changelog": "Include serverId in progress payloads so Encore can identify and display the connected Jellyfin server.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.10.zip",
+        "checksum": "7f673b6b26f8b5dd31d2fc91fefe5f5e",
+        "timestamp": "2026-05-17T00:00:00Z"
+      },
+      {
         "version": "2.1.0.9",
         "changelog": "Add historical watch history backfill — triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
         "targetAbi": "10.11.0.0",
