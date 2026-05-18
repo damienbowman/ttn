@@ -8,8 +8,16 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.17",
+        "changelog": "Fix backfill: skip items with null titles or missing external IDs, emit UTC ISO-8601 dates with Z suffix (fixes Zod datetime validation). Fix UI: use ApiClient.ajax() for connection status check so Jellyfin auth works regardless of token storage location.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.17.zip",
+        "checksum": "580be5a2ecc9ca7e03b740af85b0ae6d",
+        "timestamp": "2026-05-18T20:00:00Z"
+      },
+      {
         "version": "2.1.0.16",
-        "changelog": "Fix proxy URL detection — derive Jellyfin base path from window.location instead of ApiClient.serverAddress() which is unreliable across Jellyfin versions. Resolves 404 on all reverse-proxy setups (Ultra.cc, etc.).",
+        "changelog": "Fix proxy URL detection \u2014 derive Jellyfin base path from window.location instead of ApiClient.serverAddress() which is unreliable across Jellyfin versions. Resolves 404 on all reverse-proxy setups (Ultra.cc, etc.).",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.16.zip",
         "checksum": "31d23de75bdb9ac7ae5fa1e2a7682c58",
@@ -17,7 +25,7 @@
       },
       {
         "version": "2.1.0.15",
-        "changelog": "Fix connection UI broken behind reverse proxies (Ultra.cc seedboxes, etc.) — use ApiClient.serverAddress() for all plugin API calls instead of root-relative paths that get intercepted by the proxy before reaching Jellyfin.",
+        "changelog": "Fix connection UI broken behind reverse proxies (Ultra.cc seedboxes, etc.) \u2014 use ApiClient.serverAddress() for all plugin API calls instead of root-relative paths that get intercepted by the proxy before reaching Jellyfin.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.15.zip",
         "checksum": "db8a943190c6bb3113acd94262801d3a",
@@ -25,7 +33,7 @@
       },
       {
         "version": "2.1.0.14",
-        "changelog": "Fix version metadata (DLL was always reporting 1.0.0.0 — Jellyfin now shows correct version and stops prompting to reinstall). Add connection store diagnostics: if the JSON persistence file can't be written, the plugin UI now shows the exact error and path.",
+        "changelog": "Fix version metadata (DLL was always reporting 1.0.0.0 \u2014 Jellyfin now shows correct version and stops prompting to reinstall). Add connection store diagnostics: if the JSON persistence file can't be written, the plugin UI now shows the exact error and path.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.14.zip",
         "checksum": "66170f7a6f5c2693dcf361143756317d",
@@ -33,7 +41,7 @@
       },
       {
         "version": "2.1.0.13",
-        "changelog": "Use native fetch for all plugin API calls — removes ApiClient.ajax dependency, fixes 404 on connection status check in some Jellyfin proxy environments.",
+        "changelog": "Use native fetch for all plugin API calls \u2014 removes ApiClient.ajax dependency, fixes 404 on connection status check in some Jellyfin proxy environments.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.13.zip",
         "checksum": "e43d09c55698c2d655c9b091f74e1e91",
@@ -65,7 +73,7 @@
       },
       {
         "version": "2.1.0.9",
-        "changelog": "Add historical watch history backfill — triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
+        "changelog": "Add historical watch history backfill \u2014 triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.9.zip",
         "checksum": "a45ea19014578e44644d9a0c0ab3f9dd",
