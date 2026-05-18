@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.16",
+        "changelog": "Fix proxy URL detection — derive Jellyfin base path from window.location instead of ApiClient.serverAddress() which is unreliable across Jellyfin versions. Resolves 404 on all reverse-proxy setups (Ultra.cc, etc.).",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.16.zip",
+        "checksum": "31d23de75bdb9ac7ae5fa1e2a7682c58",
+        "timestamp": "2026-05-18T18:00:00Z"
+      },
+      {
         "version": "2.1.0.15",
         "changelog": "Fix connection UI broken behind reverse proxies (Ultra.cc seedboxes, etc.) — use ApiClient.serverAddress() for all plugin API calls instead of root-relative paths that get intercepted by the proxy before reaching Jellyfin.",
         "targetAbi": "10.11.0.0",
@@ -43,7 +51,7 @@
         "version": "2.1.0.11",
         "changelog": "Persist connections to a stable JSON file in DataPath so they survive plugin updates without re-pairing. Include serverId in progress payloads.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.11.zip",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.16.zip",
         "checksum": "40e1f34d99c7f92981d0c6d001fff39b",
         "timestamp": "2026-05-17T00:00:00Z"
       },
