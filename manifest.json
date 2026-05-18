@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.14",
+        "changelog": "Fix version metadata (DLL was always reporting 1.0.0.0 — Jellyfin now shows correct version and stops prompting to reinstall). Add connection store diagnostics: if the JSON persistence file can't be written, the plugin UI now shows the exact error and path.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.14.zip",
+        "checksum": "66170f7a6f5c2693dcf361143756317d",
+        "timestamp": "2026-05-18T02:30:00Z"
+      },
+      {
         "version": "2.1.0.13",
         "changelog": "Use native fetch for all plugin API calls — removes ApiClient.ajax dependency, fixes 404 on connection status check in some Jellyfin proxy environments.",
         "targetAbi": "10.11.0.0",
