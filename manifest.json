@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.15",
+        "changelog": "Fix connection UI broken behind reverse proxies (Ultra.cc seedboxes, etc.) — use ApiClient.serverAddress() for all plugin API calls instead of root-relative paths that get intercepted by the proxy before reaching Jellyfin.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.15.zip",
+        "checksum": "db8a943190c6bb3113acd94262801d3a",
+        "timestamp": "2026-05-18T12:30:00Z"
+      },
+      {
         "version": "2.1.0.14",
         "changelog": "Fix version metadata (DLL was always reporting 1.0.0.0 — Jellyfin now shows correct version and stops prompting to reinstall). Add connection store diagnostics: if the JSON persistence file can't be written, the plugin UI now shows the exact error and path.",
         "targetAbi": "10.11.0.0",
