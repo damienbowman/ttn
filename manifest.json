@@ -8,6 +8,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "2.1.0.18",
+        "changelog": "Fix connection persistence: normalize userId key format so connections survive plugin updates and Jellyfin version changes. Fix auth header extraction for Jellyfin 10.11 where accessToken is a string property not a function. Add UserDataSaved handler: manually marking items as watched in Jellyfin now propagates to Encore immediately.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.18.zip",
+        "checksum": "1dcdaee7d0947a9298aca7198b734d85",
+        "timestamp": "2026-05-19T08:31:00Z"
+      },
+      {
         "version": "2.1.0.17",
         "changelog": "Fix backfill: skip items with null titles or missing external IDs, emit UTC ISO-8601 dates with Z suffix (fixes Zod datetime validation). Fix UI: use ApiClient.ajax() for connection status check so Jellyfin auth works regardless of token storage location.",
         "targetAbi": "10.11.0.0",
