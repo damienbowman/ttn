@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.18",
-        "changelog": "Fix connection persistence: normalize userId key format so connections survive plugin updates and Jellyfin version changes. Fix auth header extraction for Jellyfin 10.11 where accessToken is a string property not a function. Add UserDataSaved handler: manually marking items as watched in Jellyfin now propagates to Encore immediately.",
+        "version": "2.1.0.19",
+        "changelog": "Fix per-user Encore connection status after refresh by using explicit connection status JSON names and UI casing compatibility. Harden connection APIs so normal users manage only themselves while admins can intentionally manage other users. Route connection test through the durable ConnectionStore bearer-token path. Remove stale server-wide config UI and stabilize playback dedupe/backfill warnings for Jellyfin 10.11.x.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.18.zip",
-        "checksum": "1dcdaee7d0947a9298aca7198b734d85",
-        "timestamp": "2026-05-19T08:31:00Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.19.zip",
+        "checksum": "6ff0ac3136100ed1d7dd6cd8100bdb3c",
+        "timestamp": "2026-05-23T22:15:49Z"
       },
       {
         "version": "2.1.0.17",
