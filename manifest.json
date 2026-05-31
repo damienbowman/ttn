@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.20",
+        "version": "2.1.0.21",
         "changelog": "Fix per-user Encore connection status after refresh by using explicit connection status JSON names and UI casing compatibility. Harden connection APIs so normal users manage only themselves while admins can intentionally manage other users. Route connection test through the durable ConnectionStore bearer-token path. Remove stale server-wide config UI and stabilize playback dedupe/backfill warnings for Jellyfin 10.11.x.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.20.zip",
-        "checksum": "f23660a52fa5e3539538df26a134eafc",
-        "timestamp": "2026-05-23T22:56:34Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.21.zip",
+        "checksum": "96a05a43747eeabcc7f5739dc3ec5690",
+        "timestamp": "2026-05-31T11:39:00Z"
       },
       {
         "version": "2.1.0.17",
