@@ -8,12 +8,12 @@
         "category": "General",
         "versions": [
             {
-                "version": "2.2.0.11",
+                "version": "2.2.0.12",
                 "changelog": "- Replace OAuth device-code pairing with simple URL + API key \u2014 no more approval ceremony\n- Each Jellyfin user enters their Encore URL and an API key from Encore Settings \u2192 API Keys\n- Remove ConnectionStore JSON file \u2014 config stored in standard Jellyfin XML plugin config\n- Rename plugin display name to Encore throughout\n- Existing users must re-pair after upgrade",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encore-tracker_2.2.0.11.zip",
-                "checksum": "21a639a6b731cebb39a265bcd6f7a2c0",
-                "timestamp": "2026-05-31T17:47:50Z"
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encore-tracker_2.2.0.12.zip",
+                "checksum": "f51a6564bb643132f2cb22f31d0ee24f",
+                "timestamp": "2026-05-31T17:57:01Z"
             }
         ]
     }
