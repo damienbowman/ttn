@@ -8,12 +8,12 @@
     "category": "General",
     "versions": [
       {
-        "version": "2.1.0.21",
+        "version": "2.1.0.22",
         "changelog": "Repair per-user Encore pairing persistence and auth flow, add plugin-side diagnostics visibility, and stabilize scrobble/backfill behavior for Jellyfin 10.10.7+.",
         "targetAbi": "10.10.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.21.zip",
-        "checksum": "5135e5915b90220241be3e46de22cd75",
-        "timestamp": "2026-05-31T13:31:59Z"
+        "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.22.zip",
+        "checksum": "c95bbb259176e00baddd4bbff4adaeff",
+        "timestamp": "2026-05-31T13:40:59Z"
       }
     ]
   }
