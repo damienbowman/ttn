@@ -8,100 +8,12 @@
         "category": "General",
         "versions": [
             {
-                "version": "2.2.0.0",
+                "version": "2.2.0.2",
                 "changelog": "- Replace OAuth device-code pairing with simple URL + API key \u2014 no more approval ceremony\n- Each Jellyfin user enters their Encore URL and an API key from Encore Settings \u2192 API Keys\n- Remove ConnectionStore JSON file \u2014 config stored in standard Jellyfin XML plugin config\n- Rename plugin display name to Encore throughout\n- Existing users must re-pair after upgrade",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encore-tracker_2.2.0.0.zip",
-                "checksum": "dd8aa264aedb15888be9f6171c759aa3",
-                "timestamp": "2026-05-31T14:32:05Z"
-            },
-            {
-                "version": "2.1.0.21",
-                "changelog": "Fix per-user Encore connection status after refresh by using explicit connection status JSON names and UI casing compatibility. Harden connection APIs so normal users manage only themselves while admins can intentionally manage other users. Route connection test through the durable ConnectionStore bearer-token path. Remove stale server-wide config UI and stabilize playback dedupe/backfill warnings for Jellyfin 10.10.7+.",
-                "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.21.zip",
-                "checksum": "96a05a43747eeabcc7f5739dc3ec5690",
-                "timestamp": "2026-05-31T11:39:00Z"
-            },
-            {
-                "version": "2.1.0.17",
-                "changelog": "Fix backfill: skip items with null titles or missing external IDs, emit UTC ISO-8601 dates with Z suffix (fixes Zod datetime validation). Fix UI: use ApiClient.ajax() for connection status check so Jellyfin auth works regardless of token storage location.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.17.zip",
-                "checksum": "580be5a2ecc9ca7e03b740af85b0ae6d",
-                "timestamp": "2026-05-18T20:00:00Z"
-            },
-            {
-                "version": "2.1.0.16",
-                "changelog": "Fix proxy URL detection \u2014 derive Jellyfin base path from window.location instead of ApiClient.serverAddress() which is unreliable across Jellyfin versions. Resolves 404 on all reverse-proxy setups (Ultra.cc, etc.).",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.16.zip",
-                "checksum": "31d23de75bdb9ac7ae5fa1e2a7682c58",
-                "timestamp": "2026-05-18T18:00:00Z"
-            },
-            {
-                "version": "2.1.0.15",
-                "changelog": "Fix connection UI broken behind reverse proxies (Ultra.cc seedboxes, etc.) \u2014 use ApiClient.serverAddress() for all plugin API calls instead of root-relative paths that get intercepted by the proxy before reaching Jellyfin.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.15.zip",
-                "checksum": "db8a943190c6bb3113acd94262801d3a",
-                "timestamp": "2026-05-18T12:30:00Z"
-            },
-            {
-                "version": "2.1.0.14",
-                "changelog": "Fix version metadata (DLL was always reporting 1.0.0.0 \u2014 Jellyfin now shows correct version and stops prompting to reinstall). Add connection store diagnostics: if the JSON persistence file can't be written, the plugin UI now shows the exact error and path.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.14.zip",
-                "checksum": "66170f7a6f5c2693dcf361143756317d",
-                "timestamp": "2026-05-18T02:30:00Z"
-            },
-            {
-                "version": "2.1.0.13",
-                "changelog": "Use native fetch for all plugin API calls \u2014 removes ApiClient.ajax dependency, fixes 404 on connection status check in some Jellyfin proxy environments.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.13.zip",
-                "checksum": "e43d09c55698c2d655c9b091f74e1e91",
-                "timestamp": "2026-05-17T12:00:00Z"
-            },
-            {
-                "version": "2.1.0.12",
-                "changelog": "Fix connection not persisting on refresh: use fetch directly for POST/DELETE instead of ApiClient.ajax which mangled JSON bodies. Stable JSON connection store. serverId in payloads.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.12.zip",
-                "checksum": "a33220fde7548846be5e1940d1003d47",
-                "timestamp": "2026-05-17T00:00:00Z"
-            },
-            {
-                "version": "2.1.0.11",
-                "changelog": "Persist connections to a stable JSON file in DataPath so they survive plugin updates without re-pairing. Include serverId in progress payloads.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.16.zip",
-                "checksum": "40e1f34d99c7f92981d0c6d001fff39b",
-                "timestamp": "2026-05-17T00:00:00Z"
-            },
-            {
-                "version": "2.1.0.10",
-                "changelog": "Include serverId in progress payloads so Encore can identify and display the connected Jellyfin server.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.10.zip",
-                "checksum": "7f673b6b26f8b5dd31d2fc91fefe5f5e",
-                "timestamp": "2026-05-17T00:00:00Z"
-            },
-            {
-                "version": "2.1.0.9",
-                "changelog": "Add historical watch history backfill \u2014 triggers automatically after pairing and syncs all watched movies and episodes to Encore.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.9.zip",
-                "checksum": "a45ea19014578e44644d9a0c0ab3f9dd",
-                "timestamp": "2026-05-14T18:00:00Z"
-            },
-            {
-                "version": "2.1.0.8",
-                "changelog": "Fixed connection status not persisting after navigation: added error handling to status refresh and broadened JWT claim lookup for non-admin users.",
-                "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encoretracker_2.1.0.8.zip",
-                "checksum": "c379c3db56a94843527901c704461a7c",
-                "timestamp": "2026-05-14T16:00:00Z"
+                "sourceUrl": "https://raw.githubusercontent.com/damienbowman/ttn/main/encore-tracker_2.2.0.2.zip",
+                "checksum": "570b7ef50bd30f7ce60f20fc3080b96f",
+                "timestamp": "2026-05-31T15:04:42Z"
             }
         ]
     }
